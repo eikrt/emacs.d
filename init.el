@@ -158,7 +158,7 @@
 ;; Set the title
 (setq dashboard-banner-logo-title "Welcome to Emacs!")
 ; Set the banner
-(setq dashboard-startup-banner "~/repo/configurations/media/icons/mursu_tietokoneella.png")
+(setq dashboard-startup-banner "~/repo/emacs/media/images/bukowski_166_256.png")
 ;; Content is not centered by default. To center, set
 (setq dashboard-center-content t)
 (setq dashboard-set-footer nil)
