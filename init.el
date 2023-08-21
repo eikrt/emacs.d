@@ -141,7 +141,7 @@
 ; Theming
 
 (load-theme 'dracula t)
-(set-frame-font "Ubuntu Mono 12" nil t)
+; (set-frame-font "Ubuntu Mono 12" nil t)
 
 ; Keybindings
 (global-set-key (kbd "C-c t") 'treemacs)
