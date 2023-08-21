@@ -50,6 +50,8 @@
   (package-install 'web-mode))
 (unless (package-installed-p 'prettier)
   (package-install 'prettier))
+(unless (package-installed-p 'nix-mode)
+  (package-install 'nix-mode))
 ;(unless (package-installed-p 'lsp-mode)
 ;  (package-install 'lsp-mode))
 
