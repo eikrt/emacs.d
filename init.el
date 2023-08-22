@@ -24,6 +24,8 @@
   (package-install 'helm))
 (unless (package-installed-p 'dracula-theme)
   (package-install 'dracula-theme))
+(unless (package-installed-p 'doom-opera-light)
+  (package-install 'doom-opera-light))
 (unless (package-installed-p 'minimap)
   (package-install 'minimap))
 (unless (package-installed-p 'auto-complete)
@@ -54,6 +56,7 @@
   (package-install 'nix-mode))
 (unless (package-installed-p 'smudge)
   (package-install 'smudge))
+
 ;(unless (package-installed-p 'lsp-mode)
 ;  (package-install 'lsp-mode))
 
@@ -198,7 +201,16 @@
  '(warning-suppress-log-types '((comp) (comp)))
  '(warning-suppress-types '(((unlock-file)) (comp) (comp))))
 
+
+; ui
+
+(menu-bar-mode -1)
+(toolbar-mode -1)
+(scroll-bar-mode -1)
 ; Undo-tree
 (require 'dashboard)
 (dashboard-setup-startup-hook)
 (add-hook 'xref-backend-functions #'dumb-jump-xref-activate)
+;; init.el ends here
+
+
