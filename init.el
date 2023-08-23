@@ -201,16 +201,17 @@
  '(warning-suppress-log-types '((comp) (comp)))
  '(warning-suppress-types '(((unlock-file)) (comp) (comp))))
 
-
 ; ui
 
 (menu-bar-mode -1)
 (toolbar-mode -1)
 (scroll-bar-mode -1)
+
 ; Undo-tree
 (require 'dashboard)
 (dashboard-setup-startup-hook)
 (add-hook 'xref-backend-functions #'dumb-jump-xref-activate)
+
 ;; init.el ends here
 
 
