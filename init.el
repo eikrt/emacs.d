@@ -204,7 +204,7 @@
 ; ui
 
 (menu-bar-mode -1)
-(toolbar-mode -1)
+(tool-bar-mode -1)
 (scroll-bar-mode -1)
 
 ; Undo-tree
