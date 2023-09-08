@@ -1,0 +1,96 @@
+(undo-tree-save-format-version . 1)
+"75f844fef792fa24b9070ae076e3d6c43aeda033"
+[nil nil nil nil (25848 21676 997846 0) 0 nil]
+([nil nil ((nil rear-nonsticky nil 2293 . 2294) (nil fontified nil 2283 . 2294) (2283 . 2294) 2282 (t 25847 38727 699697 464000)) nil (25848 21676 997845 0) 0 nil])
+([nil nil ((#("latex " 0 6 (fontified t)) . 2284) (undo-tree-id0 . -5) (undo-tree-id1 . -6)) nil (25848 21676 997842 0) 0 nil])
+([nil nil ((2284 . 2288)) nil (25848 21676 997824 0) 0 nil])
+([nil nil ((2288 . 2289) (t 25848 21677 878 180000)) nil (25848 21716 270361 0) 0 nil])
+([nil nil ((#("b" 0 1 (fontified t)) . -2284) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (#("a" 0 1 (fontified t)) . -2285) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) 2286 (t 25848 21716 272270 134000)) nil (25848 21748 50848 0) 0 nil])
+([nil nil ((2286 . 2289) (t 25848 21748 52783 352000)) nil (25848 21774 280244 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2199 . 2200) (#("
+" 0 1 (fontified nil)) . -2260) (2199 . 2261) 2198 (t 25848 21774 282224 931000)) nil (25848 22465 907664 0) 0 nil])
+([nil nil ((#("nov" 0 3 (fontified t)) . 2230) (undo-tree-id16 . -2) (undo-tree-id17 . -3)) nil (25848 22465 907662 0) 0 nil])
+([nil nil ((2230 . 2232)) nil (25848 22465 907659 0) 0 nil])
+([nil nil ((#("nov" 0 3 (fontified t)) . 2254) (undo-tree-id14 . -2) (undo-tree-id15 . -3)) nil (25848 22465 907657 0) 0 nil])
+([nil nil ((2254 . 2256)) nil (25848 22465 907648 0) 0 nil])
+([nil nil ((4892 . 5265) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(minimap-active-region-background ((((background dark)) (:background \"#2A2A2A222222\")) (t (:background \"#D3D3D3222222\"))) nil :group))" 0 19 (fontified nil) 19 22 (fontified nil face font-lock-comment-delimiter-face) 22 60 (fontified nil face font-lock-comment-face) 60 61 (fontified nil) 61 64 (fontified nil face font-lock-comment-delimiter-face) 64 125 (fontified nil face font-lock-comment-face) 125 126 (fontified nil) 126 129 (fontified nil face font-lock-comment-delimiter-face) 129 183 (fontified nil face font-lock-comment-face) 183 184 (fontified nil) 184 187 (fontified nil face font-lock-comment-delimiter-face) 187 237 (fontified nil face font-lock-comment-face) 237 296 (fontified nil) 296 307 (fontified nil face font-lock-builtin-face) 307 308 (fontified nil) 308 323 (fontified nil face font-lock-string-face) 323 330 (fontified nil) 330 341 (fontified nil face font-lock-builtin-face) 341 342 (fontified nil) 342 357 (fontified nil face font-lock-string-face) 357 365 (fontified nil) 365 371 (fontified nil face font-lock-builtin-face) 371 373 (fontified nil)) . -4892) (7317 . 7633) (#("
+" 0 1 (fontified nil)) . -7317) (7169 . 7318) (#(" " 0 1 (fontified nil)) . 7169) (6903 . 7170) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '(\"8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd\" \"2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15\" default))
+ '(package-selected-packages '(nov auctex evil))
+ '(shell-pop-autocd-to-working-dir t)
+ '(shell-pop-default-directory \"~/repo\")
+ '(shell-pop-universal-key \"C-x s\")
+ '(shell-pop-window-position \"bottom\")
+ '(warning-suppress-log-types '((comp) (comp)))
+ '(warning-suppress-types '(((unlock-file)) (comp) (comp))))" 0 23 (fontified nil) 23 26 (fontified nil face font-lock-comment-delimiter-face) 26 68 (fontified nil face font-lock-comment-face) 68 69 (fontified nil) 69 72 (fontified nil face font-lock-comment-delimiter-face) 72 133 (fontified nil face font-lock-comment-face) 133 134 (fontified nil) 134 137 (fontified nil face font-lock-comment-delimiter-face) 137 191 (fontified nil face font-lock-comment-face) 191 192 (fontified nil) 192 195 (fontified nil face font-lock-comment-delimiter-face) 195 245 (fontified nil face font-lock-comment-face) 245 272 (fontified nil) 272 338 (fontified nil face font-lock-string-face) 338 339 (fontified nil) 339 405 (fontified nil face font-lock-string-face) 405 534 (fontified nil) 534 542 (fontified nil face font-lock-string-face) 542 571 (fontified nil) 571 578 (fontified nil face font-lock-string-face) 578 609 (fontified nil) 609 617 (fontified nil face font-lock-string-face) 617 714 (fontified nil) 714 727 (fontified nil)) . -6903)) nil (25848 22478 255711 0) 0 nil])
+([nil nil ((2225 . 2226) (2355 . 2356) (t . 0) 2336) nil (25848 22885 79333 0) 0 nil])
+([nil nil ((#("V" 0 1 (fontified t)) . 2225) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1)) nil (25848 22885 79425 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2258 . 2259) (#("
+" 0 1 (fontified nil)) . -2317) (2258 . 2318) 2257 (t 25848 22885 661990 166000)) nil (25848 22898 916621 0) 0 nil] [nil nil ((#("d" 0 1 (fontified t)) . 2225) (undo-tree-id18 . 1) (undo-tree-id19 . -1) (undo-tree-id20 . -1)) ((2225 . 2226)) (25848 22885 79325 0) 0 nil])
+([nil nil ((#("rg" 0 2 (fontified t)) . 2289) (undo-tree-id37 . -1) (undo-tree-id38 . -2)) nil (25848 22898 916619 0) 0 nil])
+nil
+([nil nil ((2300 . 2305) (#("l" 0 1 (fontified t)) . -2300) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (#("u" 0 1 (fontified t)) . -2301) (undo-tree-id35 . -1) (undo-tree-id36 . -1) 2302 (2289 . 2302)) nil (25848 22898 916616 0) 0 nil])
+([nil nil ((#("rg" 0 2 (fontified t)) . 2327) (undo-tree-id31 . -1) (undo-tree-id32 . -2)) nil (25848 22898 916610 0) 0 nil])
+([nil nil ((2339 . 2343) (#("i" 0 1 (fontified t)) . -2339) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (#("s" 0 1 (fontified t)) . -2340) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (#("o" 0 1 (fontified t)) . -2341) (undo-tree-id29 . -1) (undo-tree-id30 . -1) 2342 (2327 . 2342)) nil (25848 22898 916604 0) 0 nil])
+([nil nil ((4980 . 5353) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(minimap-active-region-background ((((background dark)) (:background \"#2A2A2A222222\")) (t (:background \"#D3D3D3222222\"))) nil :group))" . -4980) (7405 . 7738) (#("
+" 0 1 (fontified nil)) . -7405) (7257 . 7406) (#(" " 0 1 (fontified nil)) . 7257) (6991 . 7258) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '(\"8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd\" \"2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15\" default))
+ '(package-selected-packages '(rg nov auctex evil))
+ '(shell-pop-autocd-to-working-dir t)
+ '(shell-pop-default-directory \"~/repo\")
+ '(shell-pop-universal-key \"C-x s\")
+ '(shell-pop-window-position \"bottom\")
+ '(warning-suppress-log-types '((comp) (comp)))
+ '(warning-suppress-types '(((unlock-file)) (comp) (comp))))" . -6991)) nil (25848 22908 890714 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2345 . 2346) (#("
+" 0 1 (fontified nil)) . -2432) (2345 . 2433) 2336 (t . 0)) nil (25848 40122 225331 0) 0 nil])
+([nil nil ((#("org" 0 3 (fontified t)) . 2376) (undo-tree-id64 . -2) (undo-tree-id65 . -3)) nil (25848 40122 225329 0) 0 nil])
+([nil nil ((#("-" 0 1 (fontified t)) . 2376) (undo-tree-id63 . -1)) nil (25848 40122 225326 0) 0 nil])
+([nil nil ((#("transclusion" 0 12 (fontified t)) . 2376) (undo-tree-id61 . -11) (undo-tree-id62 . -12)) nil (25848 40122 225324 0) 0 nil])
+([nil nil ((2376 . 2385) (#("p" 0 1 (fontified t)) . -2376) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (#("a" 0 1 (fontified t)) . -2377) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (#("c" 0 1 (fontified t)) . -2378) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (#("k" 0 1 (fontified t)) . -2379) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) 2380 (2376 . 2380)) nil (25848 40122 225318 0) 0 nil])
+([nil nil ((#("rg" 0 2 (fontified t)) . 2408) (undo-tree-id84 . -1) (undo-tree-id85 . -2) (undo-tree-id86 . -2) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -2) (t 25848 40122 230957 692000)) nil (25848 40128 472384 0) 0 nil])
+([nil nil ((#("o" 0 1 (fontified t)) . 2407) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1)) nil (25848 40128 472377 0) 0 nil])
+([nil nil ((#("-" 0 1 (fontified t)) . 2407) (undo-tree-id74 . -1)) nil (25848 40128 472368 0) 0 nil])
+([nil nil ((#("transclusion" 0 12 (fontified t)) . 2407) (undo-tree-id68 . -11) (undo-tree-id69 . -10) (undo-tree-id70 . -10) (undo-tree-id71 . -9) (undo-tree-id72 . -9) (undo-tree-id73 . -12)) nil (25848 40128 472366 0) 0 nil])
+([nil nil ((2409 . 2416) (#("-" 0 1 (fontified t)) . -2409) (undo-tree-id66 . -1) (undo-tree-id67 . -1) 2410 (2407 . 2410)) nil (25848 40128 472358 0) 0 nil])
+([nil current ((5053 . 5426) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(minimap-active-region-background ((((background dark)) (:background \"#2A2A2A222222\")) (t (:background \"#D3D3D3222222\"))) nil :group))" . -5053) (7478 . 7821) (#("
+" 0 1 (fontified nil)) . -7478) (7330 . 7479) (#(" " 0 1 (fontified nil)) . 7330) (7064 . 7331) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '(\"8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd\" \"2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15\" default))
+ '(package-selected-packages '(org-transclusion rg nov auctex evil))
+ '(shell-pop-autocd-to-working-dir t)
+ '(shell-pop-default-directory \"~/repo\")
+ '(shell-pop-universal-key \"C-x s\")
+ '(shell-pop-window-position \"bottom\")
+ '(warning-suppress-log-types '((comp) (comp)))
+ '(warning-suppress-types '(((unlock-file)) (comp) (comp))))" . -7064)) nil (25848 40147 427014 0) 0 nil])
+nil

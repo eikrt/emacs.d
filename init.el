@@ -9,6 +9,8 @@
 ;; Download Evil
 (unless (package-installed-p 'evil)
   (package-install 'evil))
+(unless (package-installed-p 'tramp)
+  (package-install 'tramp))
 ; Download treemacs
 (unless (package-installed-p 'treemacs)
   (package-install 'treemacs))
@@ -56,6 +58,22 @@
   (package-install 'nix-mode))
 (unless (package-installed-p 'smudge)
   (package-install 'smudge))
+(unless (package-installed-p 'auctex)
+  (package-install 'auctex))
+(unless (package-installed-p 'nov)
+  (package-install 'nov))
+(unless (package-installed-p 'rg)
+  (package-install 'rg))
+(unless (package-installed-p 'org-transclusion)
+  (package-install 'org-transclusion))
+(unless (package-installed-p 'pdf-tools)
+  (package-install 'pdf-tools))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)(latex . t)(shell . t)))
+
+(setq org-babel-python-command "python3")
 
 ;(unless (package-installed-p 'lsp-mode)
 ;  (package-install 'lsp-mode))
@@ -157,6 +175,7 @@
 (global-set-key (kbd "C-c f") 'rgrep)
 (global-set-key (kbd "C-c b") 'shell)
 (global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-<tab>") 'org-cycle)
 ; Dashboard
 ;; Set the title
 (setq dashboard-banner-logo-title "Welcome to Emacs!")
@@ -185,15 +204,22 @@
     (push 'escape unread-command-events))
        (t (setq unread-command-events (append unread-command-events
                           (list evt))))))))
+(setq evil-motion-state-modes (append evil-emacs-state-modes evil-motion-state-modes))
+   (setq evil-emacs-state-modes nil)
+(setq ns-alternate-modifier 'meta)
+(setq ns-right-alternate-modifier 'none)
 (require 'undo-tree)
 (evil-set-undo-system 'undo-tree)
 (global-undo-tree-mode 1)
+(global-visual-line-mode 1)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(evil))
+ '(custom-safe-themes
+   '("8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd" "2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15" default))
+ '(package-selected-packages '(pdf-tools org-transclusion rg nov auctex evil))
  '(shell-pop-autocd-to-working-dir t)
  '(shell-pop-default-directory "~/repo")
  '(shell-pop-universal-key "C-x s")

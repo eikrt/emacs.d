@@ -1,0 +1,28 @@
+#+SEQ_TODO: FUNNEL(f) TODO(t) INPROGRESS(i) BLOCKED(b) | DONE(d)
+* Foundations of Cryptography
+
+** Todos
+
+
+** Deadlines
+
+*** TODO <2023-09-08 Fri> 1. tehtäväsarja 
+
+** Assignments
+
+https://moodle.utu.fi/pluginfile.php/2997989/course/section/336724/Foundations_of_Cryptography_lecture_notes.pdf
+https://moodle.utu.fi/pluginfile.php/3052037/mod_resource/content/1/FoC_Demo1.pdf
+
+1. Count the number of positive integers that are not diviislbe by 9 and are smaller than 5000
+#+BEGIN_SRC python 
+  number_of_multiples = (4995 - 9) / 9 # largest multiple of 9 - smallest multiple of 9
+  return 4999 - number_of_multiples # 4999 is the first integer that is smaller than 5000
+#+END_SRC
+
+#+RESULTS:
+: 4445.0
+
+2. 
+#+BEGIN_SRC python
+   
+#+END_SRC

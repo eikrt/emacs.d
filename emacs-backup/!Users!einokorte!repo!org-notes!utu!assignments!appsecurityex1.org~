@@ -1,0 +1,25 @@
+#+TITLE: Assignment 1
+#+AUTHOR: Eino Korte
+#+OPTIONS: toc:nil 
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \setstretch{1.25}
+#+LATEX_HEADER: \documentclass[12pt]{report}
+#+LATEX_HEADER: \usepackage[margin=1.18in, bottom=0.7in, top=0.7in]{geometry}
+#+LATEX_HEADER: \usepackage{cite}
+
+As the assignment is to reflect my current knowledge on security of systems and applications, it would be fruitful first present my knowledge on systems and applications, and then proceed to describe my take on the security side of things.
+
+My strongest area of knowledge is definitely *nix and systems programming topics. I also have some experience on web-centered software from databases via backend to frontend. cloud and devops is something I have been working with recently. While all of these topics need a focus on security, it's very sadly often neglected. People I work with usually dodge questions about security and I think it's something that's severely undervalued.
+I think when there's a system or an application, the immediate question after a solution for a problem is proposed, should be about security. Let me give concrete examples I have witnessed.
+
+The most disturbing security problems I have witnessed are listed in this order by severity (in my opinion): ancient versions of critical software, bad hygiene regarding ssh keys, slow reaction time to threats, exposed public data about who's working where and turning a blind eye for unauthorized physical access to systems. There's probably a lot more to draw from this well, but the things that makes me angry is that this all is something a private sector company could make profit of. Why doesn't the company I work for sell features concerning security?
+My knowledge on this topic is somewhat good, as I clearly identify and try to react organization-wide to security related problems, but my theoretical and formal expertise on this topic is lacking, something I hope that I can improve on during this course. To sum it up, I am very active finding security problems and I like to write about it, but my approach is not very academic. It was very delightful to actually understand this time the CIA-triad during the lecture, something I had previously encountered but not properly understood. I have found out that I learn best from concrete experience, and then I gain the capability to understand a subject from a theoretical standpoint.
+
+Most critical vulnerability is definitely the human element of systems, but I think that's a simplification. The most critical vulnerability lies in the human element, but what is it about us that makes us a big vulnearibility? I think it is definitely the lack of discipline. That is very humane thing I think, and something that needs interscientific approach utilising psychology. The biggest system security problems I have witnessed have not happened in any of the places I have worked, not in worker's homes and not via messaging platforms. There exists two massive security breaches in Finland, across every imaginable context and those are pubs and sauna. Alcohol mixed with a need to flex with delicate knowledge or information, almost always results in potential security problems.
+
+It's hard for me to sum up the most critical vulnerabilities of networked systems or software applications, because I think every vulnerability can be extremely critical. My thoughts on this are based on the methods of intelligence. Every drop of knowledge is as valuable as an ocean of knowledge, and that is because usually the drops lead to finding the ocean. It makes me cringe when someone tells me that it is not a security issue if we handout publicly data that who is working with which client in work. I think every drop of data can act as an butterfly effect, and I back this statement up with the fact that those security breaches which have been properly documented work exactly this way. As Socrates said, there's only one good knowledge, and one evil, ignorance \cite{goodreadsQuoteSocrates}. I think this applies somewhat to ethics, but my derivation goes like this: "There exists only one power, knowledge and one weakness, the lack of control to knowledge". The lack of control means that if the person lacks the control from their flow of knowledge, they spread the drops of knowledge everywhere, and they can be used to malicious things. An anecdotal concrete example from my experiences is the reaction to Stuxnet-incident. People started to fear USB-sticks, but not anything else. It seems that every security threat must provide a worst case scenario before proper reactions are applied. And the sad thing is, that every attack vector must be iterated this way globally.
+
+My expectations of this course are very positive. I am keen on learning things in an academic context rather than the concrete speculation which I have implemented in my life in the past. I'm also very interested in networking with security-interested people, because I suffer from solitude when security is brought to the table.
+
+\bibliographystyle{plain}
+\bibliography{ex1.bib}
