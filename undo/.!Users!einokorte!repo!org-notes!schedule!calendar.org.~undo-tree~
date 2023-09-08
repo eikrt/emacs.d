@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ac3367e825930a60012419c58a0cb4558f77bc18"
+"2fa824ff31e7e814d0442a199e4eb9f97d720b16"
 [nil nil nil nil (25848 19849 342280 0) 0 nil]
 ([nil nil ((#("** Courses Period 1
 " 0 1 (face org-level-2 fontified t) 1 3 (face org-level-2 fontified t) 3 19 (face org-level-2 fontified t) 19 20 (fontified t)) . 60) (undo-tree-id16 . -14) (undo-tree-id17 . -14) (undo-tree-id18 . -14) (undo-tree-id19 . -14) (undo-tree-id20 . -14) (undo-tree-id21 . -14) (undo-tree-id22 . -14) (undo-tree-id23 . -14) (undo-tree-id24 . -14) (undo-tree-id25 . -14) (undo-tree-id26 . -20) (undo-tree-id27 . -19) 74 (t 25848 16783 520224 596000)) nil (25848 19849 342279 0) 0 nil])
@@ -239,5 +239,7 @@ nil
 ([nil nil ((22 . 23) 12) nil (25849 35406 465238 0) 0 nil])
 ([nil nil ((#("
 " 0 1 (fontified t)) . 1304) (undo-tree-id263 . -1) (t 25849 35406 474919 638000)) nil (25849 35409 668422 0) 0 nil])
-([nil current ((11 . 12) (t 25849 35409 680040 740000) 1) nil (25849 40382 848540 0) 0 nil])
+([nil nil ((11 . 12) (t 25849 35409 680040 740000) 1) nil (25849 40382 848540 0) 0 nil])
+([nil nil ((nil face org-date 105 . 106) (nil fontified t 105 . 106) (105 . 106) (t 25849 40382 860611 166000) 104) nil (25850 51311 195151 0) 0 nil])
+([nil current ((290 . 300) (#("x" 0 1 (fontified t)) . -290) (undo-tree-id264 . -1) (undo-tree-id265 . -1) (undo-tree-id266 . -1) (undo-tree-id267 . -1) (#(" " 0 1 (fontified t)) . -291) (undo-tree-id268 . -1) (undo-tree-id269 . -1) (undo-tree-id270 . -1) (undo-tree-id271 . -1) 292 (282 . 292) (#("t" 0 1 (fontified t)) . -282) (undo-tree-id272 . -1) (undo-tree-id273 . -1) (#("h" 0 1 (fontified t)) . -283) (undo-tree-id274 . -1) (undo-tree-id275 . -1) 284 (281 . 284) (nil face org-date 280 . 281) (nil fontified t 280 . 281) (280 . 281) 279) nil (25850 51311 195146 0) 0 nil])
 nil
