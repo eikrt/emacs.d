@@ -1,6 +1,0 @@
-(undo-tree-save-format-version . 1)
-"db6289881c2f9b55ef9018d36e5bccc28f792ffa"
-[nil nil nil nil (25836 63812 678426 0) 0 nil]
-([nil current ((1 . 71) ("00679	Mon Aug 28 22:45:08 2023	Eino Korte <einokorte@dyn67-143.yok.fi>" . -1) (undo-tree-id0 . -70) ("
-" . 72) (undo-tree-id1 . -1) (1 . 72) ("00679	Mon Aug 28 22:45:08 2023	Eino Korte <einokorte@dyn67-143.yok.fi>" . 1) (1 . 72) (t . -1)) nil (25836 63812 678421 0) 0 nil])
-nil
