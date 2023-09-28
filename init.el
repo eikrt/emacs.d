@@ -38,6 +38,10 @@
   (package-install 'js2-mode))
 (unless (package-installed-p 'rjsx-mode)
   (package-install 'rjsx-mode))
+(unless (package-installed-p 'rust-mode)
+  (package-install 'rust-mode))
+(unless (package-installed-p 'hy-mode)
+  (package-install 'hy-mode))
 (unless (package-installed-p 'flycheck)
   (package-install 'flycheck))
 (unless (package-installed-p 'evil-matchit)
@@ -68,6 +72,10 @@
   (package-install 'org-transclusion))
 (unless (package-installed-p 'pdf-tools)
   (package-install 'pdf-tools))
+(unless (package-installed-p 'magit)
+  (package-install 'magit))
+(unless (package-installed-p 'rest-client)
+  (package-install 'rest-client))
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -75,12 +83,13 @@
 
 (setq org-babel-python-command "python3")
 
-;(unless (package-installed-p 'lsp-mode)
-;  (package-install 'lsp-mode))
+(unless (package-installed-p 'lsp-mode)
+  (package-install 'lsp-mode))
 
 ; Find
 (setq ido-use-filename-at-point nil)
 
+(global-set-key (kbd "C-c d") 'global-display-line-numbers-mode)
 ; Undo-tree
 ;; Prevent undo tree files from polluting your git repo
 (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
@@ -133,6 +142,15 @@
 (global-evil-matchit-mode 1)
 ;Autosave
 (setq auto-save-default nil)
+
+; Rust
+
+(require 'rust-mode)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+; Hy
+
+(require 'rust-mode)
+(add-to-list 'auto-mode-alist '("\\.hy\\'" . hy-mode))
 
 ; Javascript
 (require 'js2-mode)
@@ -219,7 +237,8 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd" "2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15" default))
- '(package-selected-packages '(pdf-tools org-transclusion rg nov auctex evil))
+ '(package-selected-packages
+   '(lsp-mode hy-mode rust-mode pdf-tools org-transclusion rg nov auctex evil))
  '(shell-pop-autocd-to-working-dir t)
  '(shell-pop-default-directory "~/repo")
  '(shell-pop-universal-key "C-x s")
