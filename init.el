@@ -66,6 +66,8 @@
   (package-install 'auctex))
 (unless (package-installed-p 'nov)
   (package-install 'nov))
+(unless (package-installed-p 'lyqi)
+  (package-install 'lyqi))
 (unless (package-installed-p 'rg)
   (package-install 'rg))
 (unless (package-installed-p 'org-transclusion)
@@ -77,6 +79,11 @@
 (unless (package-installed-p 'rest-client)
   (package-install 'rest-client))
 
+(autoload 'LilyPond-mode "lilypond-mode")
+(setq auto-mode-alist
+      (cons '("\\.ly$" . LilyPond-mode) auto-mode-alist))
+
+(add-hook 'LilyPond-mode-hook (lambda () (turn-on-font-lock)))
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)(latex . t)(shell . t)))
@@ -237,8 +244,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd" "2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15" default))
- '(package-selected-packages
-   '(lsp-mode hy-mode rust-mode pdf-tools org-transclusion rg nov auctex evil))
+ '(package-selected-packages '(lyqi pdf-tools org-transclusion rg nov auctex evil))
  '(shell-pop-autocd-to-working-dir t)
  '(shell-pop-default-directory "~/repo")
  '(shell-pop-universal-key "C-x s")
