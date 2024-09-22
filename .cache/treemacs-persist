@@ -1,0 +1,7 @@
+* Default
+** memos
+ - path :: ~/repo/memos
+** .emacs.d
+ - path :: ~/.emacs.d
+** marble
+ - path :: ~/repo/games/marble
