@@ -25,11 +25,15 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
-
+(add-hook 'xref-backend-functions #'dumb-jump-xref-activate)
+(global-set-key "\C-x\C-o" 'dumb-jump-go-prefer-external-other-window);
+(global-set-key "\C-x\C-k" 'xref-pop-marker-stack);
+(global-set-key "\C-x\C-j" 'dumb-jump-go);
+(global-set-key "\C-x\C-k" 'dumb-jump-back);
 (setq gc-cons-threshold 100000000) ; 100 mb
 (setq read-process-output-max (* 1024 1024)) ; 1mb
-
-
+; (set-face-attribute 'default nil :font Droid Sans Mono-10 )
+; (set-frame-font Droid Sans Mono-10 nil t)
 ; Misc stuff
 
 ;; Auto-refresh buffers when files on disk change.
@@ -41,7 +45,9 @@
 ;; prefix when it detects matching names.
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
-
+;(use-package restclient
+;  :ensure t
+;  :mode (("\\.http\\'" . restclient-mode)))
 ;; Place backups in a separate folder.
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq auto-save-file-name-transforms `((".*" "~/.saves/" t)))
@@ -90,7 +96,7 @@
   ; Dashboard
 (set-face-attribute 'default nil
                     :family "Ubuntu Mono"
-                    :height 130)  ;; Adjust height as needed (110 is 11pt)
+                    :height 110)  ;; Adjust height as needed (110 is 11pt)
 ;; Set the title
 (setq dashboard-banner-logo-title "Welcome to Emacs!")
 ; Set the banner
@@ -116,3 +122,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+ 
