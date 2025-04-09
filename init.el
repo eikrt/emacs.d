@@ -138,11 +138,12 @@
 (golden-ratio 1)
 (global-set-key (kbd "C-c c") 'comment-region)
 (ac-config-default)
-(global-set-key "\M-(" (lambda () (interactive) (insert "{")))
-(global-set-key "\M-)" (lambda () (interactive) (insert "}")))
-(global-set-key "\M-8" (lambda () (interactive) (insert "[")))
-(global-set-key "\M-9" (lambda () (interactive) (insert "]")))
-(global-set-key "\M-<" (lambda () (interactive) (insert "|")))
+(when (eq system-type 'darwin)
+  (global-set-key (kbd "M-(") (lambda () (interactive) (insert "{}")))
+  (global-set-key (kbd "M-)") (lambda () (interactive) (insert "}")))
+  (global-set-key (kbd "M-8") (lambda () (interactive) (insert "[]")))
+  (global-set-key (kbd "M-9") (lambda () (interactive) (insert "]")))
+  (global-set-key (kbd "M-<") (lambda () (interactive) (insert "|"))))
 (use-package web-mode
   :ensure t
   :mode
