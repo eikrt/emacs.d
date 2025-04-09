@@ -1,9 +1,32 @@
+(add-to-list 'package-archives
+	         '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
 ; Theme
 ;
 ; (load-theme 'dracula t)
 (load-theme 'modus-operandi t)
+(package-refresh-contents)
 ; Enable Evil
-(require 'evil)
+(use-package evil 
+  :ensure t)
+(use-package evil-matchit
+  :ensure t)
+(use-package treemacs 
+  :ensure t)
+(use-package rust-mode 
+  :ensure t)
+(use-package rainbow-mode 
+  :ensure t)
+(use-package helm 
+  :ensure t)
+(use-package golden-ratio 
+  :ensure t)
+(use-package google-this
+  :ensure t)
+(use-package dimmer 
+  :ensure t)
+(use-package nix-mode
+  :ensure t)
 (evil-mode 1)
 (define-key evil-insert-state-map "j" #'cofi/maybe-exit)
 (evil-define-command cofi/maybe-exit ()
@@ -65,10 +88,7 @@
 (require 'package)
 
 ;; Add MELPA to your list of package archives
-(add-to-list 'package-archives
-	         '("melpa" . "https://melpa.org/packages/"))
 
-(package-initialize)
 (use-package vertico
   :ensure t
   :init
@@ -79,8 +99,6 @@
   :ensure t
   :init
   (marginalia-mode))
-
-(use-package treemacs)
 
 (use-package rust-mode)
 
@@ -113,7 +131,9 @@
 )
 
 ; plugins
-(load "/Users/eino.korte/repo/emacs.d/plugins/apidoc-eww.el")
+
+(when (eq system-type 'darwin)
+(load "/Users/eino.korte/repo/emacs.d/plugins/apidoc-eww.el"))
 
 ; Keybindings  
 (global-set-key (kbd "C-c a") 'apidoc-eww)
@@ -137,7 +157,7 @@
 (winner-mode 1)
 (golden-ratio 1)
 (global-set-key (kbd "C-c c") 'comment-region)
-(ac-config-default)
+; (ac-config-default)
 (when (eq system-type 'darwin)
   (global-set-key (kbd "M-(") (lambda () (interactive) (insert "{}")))
   (global-set-key (kbd "M-)") (lambda () (interactive) (insert "}")))
