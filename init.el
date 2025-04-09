@@ -1,3 +1,4 @@
+(require 'package)
 (add-to-list 'package-archives
 	         '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
@@ -85,7 +86,6 @@
   (load custom-file))
 ;; You'll be installing your packages with the
 ;; built-in package.el script
-(require 'package)
 
 ;; Add MELPA to your list of package archives
 
