@@ -190,9 +190,11 @@
  (dimmer-configure-which-key)
  (dimmer-configure-helm)
  (dimmer-mode t)
+
+(when (eq system-type 'darwin)
 (set-face-attribute 'default nil
                     :family "Andale Mono"
-                    :height 120)  ;; Adjust height as needed (110 is 11pt)
+                    :height 120))  ;; Adjust height as needed (110 is 11pt)
 ;; Set the title
 (setq dashboard-banner-logo-title "Welcome to Emacs!")
 ; Set the banner
