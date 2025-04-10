@@ -165,6 +165,14 @@
 (global-set-key (kbd "M-9") (lambda () (interactive) (insert "]")))
 (global-set-key (kbd "M-<") (lambda () (interactive) (insert "|"))) 
 (global-set-key (kbd "M-+") (lambda () (interactive) (insert "|"))) 
+(global-set-key (kbd "M-4") (lambda () (interactive) (insert "|"))) 
+(global-set-key (kbd "M-7") (lambda () (interactive) (insert "\\"))) 
+(use-package web-mode
+  :ensure t
+  :mode
+  (("\\.phtml\\'" . web-mode)
+   ("\\.php\\'" . web-mode)
+   ("\\.js\\'" . web-mode)
 (use-package web-mode
   :ensure t
   :mode
