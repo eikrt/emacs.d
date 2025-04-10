@@ -133,6 +133,7 @@
 ; plugins
 
 (when (eq system-type 'darwin)
+(setq locate-command "mdfind")
 (load "/Users/eino.korte/repo/emacs.d/plugins/apidoc-eww.el"))
 
 ; Keybindings  
