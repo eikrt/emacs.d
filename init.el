@@ -159,12 +159,14 @@
 (golden-ratio 1)
 (global-set-key (kbd "C-c c") 'comment-region)
 ; (ac-config-default)
-  (global-set-key (kbd "M-(") (lambda () (interactive) (insert "{}")))
-  (global-set-key (kbd "M-)") (lambda () (interactive) (insert "}")))
-  (global-set-key (kbd "M-8") (lambda () (interactive) (insert "[]")))
-  (global-set-key (kbd "M-9") (lambda () (interactive) (insert "]")))
-  (global-set-key (kbd "M-<") (lambda () (interactive) (insert "|"))) 
-  (global-set-key (kbd "M-+") (lambda () (interactive) (insert "|"))) 
+(global-set-key (kbd "M-(") (lambda () (interactive) (insert "{}")))
+(global-set-key (kbd "M-)") (lambda () (interactive) (insert "}")))
+(global-set-key (kbd "M-8") (lambda () (interactive) (insert "[]")))
+(global-set-key (kbd "M-9") (lambda () (interactive) (insert "]")))
+(global-set-key (kbd "M-<") (lambda () (interactive) (insert "|"))) 
+(global-set-key (kbd "M-+") (lambda () (interactive) (insert "|"))) 
+(global-set-key (kbd "s-7") (lambda () (interactive) (insert "\\")))
+(global-set-key (kbd "s-4") (lambda () (interactive) (insert "$"))) 
 (Use-package web-mode
   :ensure t
   :mode
