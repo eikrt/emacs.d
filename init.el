@@ -132,9 +132,9 @@
 
 ; plugins
 
-(when (eq system-type 'darwin)
-(setq locate-command "mdfind")
-(load "/Users/eino.korte/repo/emacs.d/plugins/apidoc-eww.el"))
+;; (when (eq system-type 'darwin)
+;; (setq locate-command "mdfind")
+;; (load "/Users/eino.korte/repo/emacs.d/plugins/apidoc-eww.el"))
 
 ; Keybindings  
 (global-set-key (kbd "C-c a") 'apidoc-eww)
@@ -165,9 +165,7 @@
 (global-set-key (kbd "M-9") (lambda () (interactive) (insert "]")))
 (global-set-key (kbd "M-<") (lambda () (interactive) (insert "|"))) 
 (global-set-key (kbd "M-+") (lambda () (interactive) (insert "|"))) 
-(global-set-key (kbd "s-7") (lambda () (interactive) (insert "\\")))
-(global-set-key (kbd "s-4") (lambda () (interactive) (insert "$"))) 
-(Use-package web-mode
+(use-package web-mode
   :ensure t
   :mode
   (("\\.phtml\\'" . web-mode)
