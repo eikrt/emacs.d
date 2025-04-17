@@ -173,12 +173,6 @@
   (("\\.phtml\\'" . web-mode)
    ("\\.php\\'" . web-mode)
    ("\\.js\\'" . web-mode)
-(use-package web-mode
-  :ensure t
-  :mode
-  (("\\.phtml\\'" . web-mode)
-   ("\\.php\\'" . web-mode)
-   ("\\.js\\'" . web-mode)
    ("\\.jsx\\'" . web-mode)
    ("\\.ts\\'" . web-mode)
    ("\\.tsx\\'" . web-mode)
